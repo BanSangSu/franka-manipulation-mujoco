@@ -1,0 +1,75 @@
+<mujoco model="YcbMustardBottle">
+  <asset>
+    <texture type="2d" name="texture_map" file="texture_map.png" />
+    <material
+            name="material_0"
+            texture="texture_map"
+            specular="0.5"
+            shininess="0.5"
+        />
+    <mesh file="../../../assets/mujoco_objects/YcbMustardBottle/textured.obj" />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbMustardBottle/textured_collision_0.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbMustardBottle/textured_collision_1.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbMustardBottle/textured_collision_2.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbMustardBottle/textured_collision_3.obj"
+        />
+  </asset>
+  <worldbody>
+  <body name="sample_object">
+  <freejoint name="sample_object_free" />
+  <inertial
+                mass="0.603"
+                euler="0 0 0.1"
+                pos="-0.005 -0.005 -0.015"
+                diaginertia="1e-3 1e-3 1e-3"
+            />
+      <geom
+                material="material_0"
+                mesh="textured"
+                class="visual"
+                group="2"
+                type="mesh"
+                contype="0"
+                conaffinity="0"
+                friction="1.0 0.01 0.001"
+                solimp="0.95 0.99 0.001"
+                solref="0.02 1"
+            />
+      <geom
+                mesh="textured_collision_0"
+                rgba="0.20923385654629256 0.8807413546503658 0.03726587162562156 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_1"
+                rgba="0.20321054659810067 0.855896083671473 0.9300946321147581 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_2"
+                rgba="0.7602578665281671 0.4738803853891891 0.3301359606992448 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_3"
+                rgba="0.08269794362216554 0.249474855490473 0.8291946042856171 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+    </body>
+  </worldbody>
+</mujoco>

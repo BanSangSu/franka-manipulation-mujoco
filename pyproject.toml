@@ -1,0 +1,46 @@
+[project]
+name = "mujoco_app"
+version = "0.1.0"
+description = "MuJoCo-based manipulation stack with cameras, objects, and robot helpers"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+authors = [
+  { name = "iRobMan" }
+]
+dependencies = [
+    "imageio>=2.37.0",
+    "matplotlib>=3.10.8",
+    "mujoco>=3.3.7",
+    "pyyaml>=6.0.3",
+    "trimesh>=4.8.3",
+]
+
+[project.optional-dependencies]
+# Development tools (optional, for all platforms)
+dev = [
+  "pytest>=7.0.0",
+  "black>=23.0.0",
+  "ruff>=0.1.0",
+]
+
+# Platform-specific optional dependencies (examples)
+# Uncomment if you need platform-specific packages:
+# windows = [
+#   "pywin32>=305; sys_platform == 'win32'",
+# ]
+# macos = [
+#   "pyobjc-framework-Cocoa>=9.0; sys_platform == 'darwin'",
+# ]
+# linux = [
+#   "python-xlib>=0.33; sys_platform == 'linux'",
+# ]
+
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
+
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"

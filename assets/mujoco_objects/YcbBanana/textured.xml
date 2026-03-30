@@ -1,0 +1,65 @@
+<mujoco model="YcbBanana">
+  <asset>
+    <texture type="2d" name="texture_map" file="texture_map.png" />
+    <material
+            name="material_0"
+            texture="texture_map"
+            specular="0.5"
+            shininess="0.5"
+        />
+    <mesh file="../../../assets/mujoco_objects/YcbBanana/textured.obj" />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbBanana/textured_collision_0.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbBanana/textured_collision_1.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbBanana/textured_collision_2.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbBanana/textured_collision_3.obj"
+        />
+  </asset>
+  <worldbody>
+    <body name="sample_object">
+    <freejoint name="sample_object_free" />
+    <inertial mass="0.066" pos="0.01 0.0 0.01" diaginertia="1e-3 1e-3 1e-3" />
+      <geom
+                material="material_0"
+                mesh="textured"
+                group="2"
+                type="mesh"
+                contype="0"
+                conaffinity="0"
+                friction="1.0 0.01 0.001"
+                solimp="0.95 0.99 0.001"
+                solref="0.02 1"
+            />
+      <geom
+                mesh="textured_collision_0"
+                rgba="0.12558908510255506 0.07928534210229121 0.3062762341571761 1"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_1"
+                rgba="0.7300014092589462 0.7278161313757494 0.9952520289879426 1"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_2"
+                rgba="0.5699971246248724 0.2769214337137039 0.017836234615764668 1"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_3"
+                rgba="0.759786491954652 0.2052198583395327 0.7907496205706185 1"
+                group="3"
+                type="mesh"
+            />
+    </body>
+  </worldbody>
+</mujoco>

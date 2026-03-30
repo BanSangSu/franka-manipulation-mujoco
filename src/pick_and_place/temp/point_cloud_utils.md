@@ -1,0 +1,1 @@
+Use it instead of GraspGen/grasp_gen/utils/point_cloud_utils.py when point cloud is too big which causes the OOM(Out of Memory).

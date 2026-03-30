@@ -1,0 +1,510 @@
+<mujoco model="YcbTomatoSoupCan">
+  <asset>
+    <texture type="2d" name="texture_map" file="texture_map.png" />
+    <material
+            name="material_0"
+            texture="texture_map"
+            specular="0.5"
+            shininess="0.5"
+        />
+    <mesh file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured.obj" />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_0.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_1.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_2.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_3.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_4.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_5.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_6.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_7.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_8.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_9.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_10.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_11.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_12.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_13.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_14.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_15.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_16.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_17.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_18.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_19.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_20.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_21.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_22.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_23.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_24.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_25.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_26.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_27.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_28.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_29.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_30.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_31.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_32.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_33.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_34.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_35.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_36.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_37.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_38.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_39.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_40.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_41.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_42.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_43.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_44.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_45.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_46.obj"
+        />
+    <mesh
+            file="../../../assets/mujoco_objects/YcbTomatoSoupCan/textured_collision_47.obj"
+        />
+  </asset>
+  <worldbody>
+  <body name="sample_object">
+  <freejoint name="sample_object_free" />
+  <inertial mass="0.349" pos="-0.005 0.013 0.0" diaginertia="1e-3 1e-3 1e-3" />
+      <geom
+                material="material_0"
+                mesh="textured"
+                class="visual"
+                group="2"
+                type="mesh"
+                contype="0"
+                conaffinity="0"
+                friction="1.0 0.01 0.001"
+                solimp="0.95 0.99 0.001"
+                solref="0.02 1"
+            />
+      <geom
+                mesh="textured_collision_0"
+                rgba="0.8867232553735219 0.9892213807841216 0.554709953875074 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_1"
+                rgba="0.11992618168803948 0.9187340613093414 0.999706192196035 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_2"
+                rgba="0.2848970888379754 0.48901671244356204 0.9196984854728123 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_3"
+                rgba="0.4242934854680863 0.4818392524812791 0.0397716333802105 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_4"
+                rgba="0.07368422565728172 0.3081572450309692 0.3054304279685799 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_5"
+                rgba="0.20024141120139416 0.08409957988755312 0.20667021144612674 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_6"
+                rgba="0.15287867263820287 0.19333012405896932 0.9661843764985466 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_7"
+                rgba="0.11476308473099062 0.2652263489695881 0.35967850017396985 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_8"
+                rgba="0.9831772355386468 0.3662599567928091 0.9239504130262438 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_9"
+                rgba="0.703097033272833 0.16057652793763777 0.38135928817993214 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_10"
+                rgba="0.03530453193710004 0.21863869539656944 0.11293715077149813 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_11"
+                rgba="0.7110569547613701 0.37302484552938486 0.7233595252459991 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_12"
+                rgba="0.4516787997399486 0.133778981371391 0.8763647319975035 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_13"
+                rgba="0.9126122995019629 0.22696711402303493 0.16663314815573083 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_14"
+                rgba="0.27853881182548423 0.8705890975679959 0.7177291726678477 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_15"
+                rgba="0.57586153685865 0.7343649659134907 0.28866348104679185 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_16"
+                rgba="0.8902656883234212 0.0957188814940324 0.7105534786321623 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_17"
+                rgba="0.772977940779926 0.4588044703294084 0.5890496583854861 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_18"
+                rgba="0.13949034942303773 0.6445010526024956 0.5026791123197244 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_19"
+                rgba="0.39915632497484266 0.26195777454124614 0.8830255323346673 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_20"
+                rgba="0.09543082486543508 0.9487900805666322 0.6474352458617779 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_21"
+                rgba="0.47274036283172205 0.954718775714304 0.9274889117754772 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_22"
+                rgba="0.11963038164134143 0.6448332459230219 0.4782758401499213 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_23"
+                rgba="0.5689675708203905 0.27754926816503345 0.4414591524753959 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_24"
+                rgba="0.6477828951626822 0.3827907461379906 0.5147606932987671 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_25"
+                rgba="0.603656783236141 0.0027090730831698107 0.6704858810481259 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_26"
+                rgba="0.6925455869605003 0.7309073332728075 0.5393269197393762 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_27"
+                rgba="0.8231913798557611 0.31387275113734503 0.650834905818899 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_28"
+                rgba="0.46111285856883977 0.3473131325883738 0.9011864503143652 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_29"
+                rgba="0.49099883898189056 0.38778980630606463 0.48377032900635575 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_30"
+                rgba="0.8307651494601437 0.4978989199901972 0.4303806275457812 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_31"
+                rgba="0.22097324920552142 0.2866116193976318 0.013044270866868213 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_32"
+                rgba="0.4939153744962903 0.1843482185443449 0.020518156567913448 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_33"
+                rgba="0.572557396529847 0.4691689540446886 0.7823203719472729 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_34"
+                rgba="0.7962448122184042 0.059109747281134606 0.770866002657875 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_35"
+                rgba="0.6073292087426366 0.6002582670264471 0.8887982082423873 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_36"
+                rgba="0.5275124808587042 0.8408373281766116 0.9048034261543346 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_37"
+                rgba="0.5819364026471217 0.49235465854263594 0.16399788696689033 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_38"
+                rgba="0.7352740893177802 0.14548541469958165 0.7136725832169725 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_39"
+                rgba="0.7398185599590462 0.8904669550745689 0.6885169479408367 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_40"
+                rgba="0.4658828383180127 0.4792590618446009 0.25700954321746805 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_41"
+                rgba="0.24209328441528288 0.7990073949950118 0.6891840609013886 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_42"
+                rgba="0.5494403192704879 0.2605060865384411 0.16387327991806322 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_43"
+                rgba="0.914304179616382 0.15503057077716775 0.9262924693615014 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_44"
+                rgba="0.1748816174678871 0.4362030370476133 0.503344483111036 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_45"
+                rgba="0.2619450865864692 0.9446208599290077 0.9427811091797496 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_46"
+                rgba="0.6920724049260585 0.7397818763388013 0.20326729463995985 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+      <geom
+                mesh="textured_collision_47"
+                rgba="0.6620844975096113 0.6379888535079081 0.9842680867903469 1"
+                class="collision"
+                group="3"
+                type="mesh"
+            />
+    </body>
+  </worldbody>
+</mujoco>
