@@ -180,14 +180,6 @@ cython_debug/
 *.pkl
 *.pickle
 
-# MuJoCo simulation outputs
-*.png
-*.jpg
-*.jpeg
-*.mp4
-*.avi
-*.gif
-
 # LaTeX compilation artifacts
 *.aux
 *.bbl
