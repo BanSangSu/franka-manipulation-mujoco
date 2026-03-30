@@ -2,6 +2,8 @@
 
 This repository implements an autonomous Pick and Place task in a dynamic environment, utilizing [iRobMan project](https://gitlab.pearl.informatik.tu-darmstadt.de/teaching/irobman2526-finalproject) as a baseline environment. The core objective is to pick and place the target object to the goal location while avoiding moving obstacles within the MuJoCo engine.
 
+![demo](imgs/demo_l.gif)
+
 ---
 
 ## 1. Prerequisites
